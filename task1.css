@@ -1,0 +1,69 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#companytext{
+    color: white;
+    background-color:#3d97c0 ;
+    padding: 1% 0%;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+
+#companytext h1{
+    margin: 0% 0.5%;
+    margin-left: 3vw;
+    font-size: 5vw;
+    font-weight: lighter;
+}
+.navbar{
+    background-color:#333333;
+    display: flex;
+   padding-left: 3vw;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar  a{
+    color: white;
+    padding: 1vw;
+    text-decoration: none;
+    
+}
+.navbar img{
+    margin: 1vw;
+    margin-left: 68vw;
+} 
+#news{
+    margin: 4vw;
+    border: 1px solid black;
+    border-radius: 1%;
+    margin-right: 30%;
+    padding: 0% 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#news p{
+    
+    text-decoration: none;
+    font-size: 90%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+#lowerbodytext{
+    margin: 4%;
+    margin-right: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width:1080px) {
+
+    .navbar img{margin-left:60vw}
+    #companytext h1{font-size: 8vw;}
+}
+@media screen and (max-width:720px) {
+    .navbar img{margin-left:46vw ;}
+    #companytext h1{font-size: 10vw;}
+    
+}
+@media screen and (max-width:480px) {
+    .navbar img{margin-left: 25vw;}
+    #companytext h1{font-size: 15vw;}
+    
+}
