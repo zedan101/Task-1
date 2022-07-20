@@ -44,11 +44,16 @@ body{
     padding: 0% 1%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 #news h3{
+    margin-top: 4px;
+    
     font-weight: 600;
     
 }
+
 #news li{
+
     list-style-type:'-   ';
 }
 #news p{
