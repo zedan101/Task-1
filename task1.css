@@ -1,35 +1,39 @@
+@font-face {
+    font-family: companyfont;
+    src: url(./companyfont.otf);
+    
+  }
+
 body{
     margin: 0%;
     padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#companytext{
+.company-text{
     color: white;
     background-color:#3d97c0 ;
     padding: 1% 0%;
-    
-    font-family: 'Open Sans', sans-serif;
+    padding-left: 3vw;
+    font-size: 5vw;
+    font-family: companyfont;
 }
 
-#companytext h1{
-    margin: 0% 0.5%;
-    margin-left: 3vw;
-    font-size: 5vw;
-    font-weight: lighter;
-}
+
 
 .navbar{
     background-color:#333333;
     display: flex;
     padding: 3px;
    padding-left: 1.1vw;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
 }
 
 .navbar  a{
     color: white;
     padding-left: 3vw;
     text-decoration: none;
+    font-weight: bold;
     
 }
 
@@ -40,62 +44,60 @@ body{
     order: 2;
 } 
 
-#news{
+.news{
     margin: 4vw;
     margin-top: 2vw;
     border: 1px solid rgb(179, 171, 171);
-    /* border-radius: 1%; */
+    
    
     margin-right: 30%;
     padding: 0% 1%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
-#news h3{
+.news h3{
     margin-top: 4px;
     
     font-weight: 600;
     
 }
 
-#news li{
-
-    list-style-type:'-   ';
-}
-
-#news p{
+.news li{
     font-weight: 200px;
     text-decoration: none;
     font-size: 90%;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding-bottom: 2%;
+    
+    list-style-type:'-   ';
 }
 
-#lowerbodytext h3{
+
+.lower-body-text h3{
     font-weight: 600;
 }
 
-#lowerbodytext{
+.lower-body-text{
     margin: 4%;
     margin-top: 2%;
     margin-right: 10%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 @media screen and (max-width:1080px) {
 
   
     
-    #companytext h1{font-size: 8vw;}
+    .company-text {font-size: 8vw;}
 }
 
 @media screen and (max-width:720px) {
     
-    #companytext h1{font-size: 10vw;}
+    .company-text {font-size: 10vw;}
     
 }
 
 @media screen and (max-width:480px) {
     
-    #companytext h1{font-size: 15vw;}
+    .company-text {font-size: 10vw;}
     
 }
