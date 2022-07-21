@@ -35,7 +35,8 @@ body{
 
 .navbar img{
     
-    margin-left: 64vw;
+    margin-left: auto;
+    order: 2;
 } 
 
 #news{
@@ -81,18 +82,19 @@ body{
 
 @media screen and (max-width:1080px) {
 
-    .navbar img{margin-left:54vw}
+  
+    
     #companytext h1{font-size: 8vw;}
 }
 
 @media screen and (max-width:720px) {
-    .navbar img{margin-left:46vw ;}
+    
     #companytext h1{font-size: 10vw;}
     
 }
 
 @media screen and (max-width:480px) {
-    .navbar img{margin-left: 25vw;}
+    
     #companytext h1{font-size: 15vw;}
     
 }
