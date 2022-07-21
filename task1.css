@@ -2,6 +2,7 @@ body{
     margin: 0%;
     padding: 0%;
 }
+
 #companytext{
     color: white;
     background-color:#3d97c0 ;
@@ -16,6 +17,7 @@ body{
     font-size: 5vw;
     font-weight: lighter;
 }
+
 .navbar{
     background-color:#333333;
     display: flex;
@@ -23,12 +25,14 @@ body{
    padding-left: 1.1vw;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .navbar  a{
     color: white;
     padding-left: 3vw;
     text-decoration: none;
     
 }
+
 .navbar img{
     
     margin-left: 64vw;
@@ -56,15 +60,18 @@ body{
 
     list-style-type:'-   ';
 }
+
 #news p{
     font-weight: 200px;
     text-decoration: none;
     font-size: 90%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
+
 #lowerbodytext h3{
     font-weight: 600;
 }
+
 #lowerbodytext{
     margin: 4%;
     margin-top: 2%;
